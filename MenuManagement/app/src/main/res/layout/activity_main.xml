@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fitsSystemWindows="true"
+    android:fillViewport="true"
+    android:scrollbars="vertical"
+    android:scrollbarStyle="insideInset">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="56dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp">
+
+        <ImageView
+            android:src="@drawable/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="72dp"
+            android:layout_marginBottom="24dp"
+            android:layout_gravity="center_horizontal"/>
+
+        <!-- Menu ID Label -->
+        <TextView
+            android:text="Menu ID"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/editText_menuid"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:singleLine="true"/>
+
+        <!-- Food Code Label -->
+        <TextView
+            android:text="Food Code"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/editText_foodcode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:singleLine="true"/>
+
+        <!-- Food Name -->
+        <TextView
+            android:text="Food Name"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/editText_foodname"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:singleLine="true"/>
+
+        <!-- Food Type -->
+        <TextView
+            android:text="Food Type"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/editText_foodtype"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:singleLine="true"/>
+
+        <!-- Recipe -->
+        <TextView
+            android:text="Recipe"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/editText_recipe"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:singleLine="true"/>
+
+        <!-- Price -->
+        <TextView
+            android:text="Price"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/editText_price"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="20dp"
+            android:singleLine="true"/>
+
+        <!--Add Button -->
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Add Menu"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+
+</ScrollView>

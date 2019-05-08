@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MenuCrud</string>
+
+    <array name="menus">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+        <item>Dessert</item>
+    </array>
+</resources>
